@@ -11,6 +11,8 @@
 		0B0E070E27416DC600669087 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0E070D27416DC600669087 /* ContentView.swift */; };
 		0B0E071027416DC700669087 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B0E070F27416DC700669087 /* Assets.xcassets */; };
 		0B0E071327416DC700669087 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B0E071227416DC700669087 /* Preview Assets.xcassets */; };
+		0B0E07222741722B00669087 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0E07212741722B00669087 /* CircleView.swift */; };
+		0B0E07242741724900669087 /* CustomCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0E07232741724900669087 /* CustomCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		0B0E070D27416DC600669087 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0B0E070F27416DC700669087 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B0E071227416DC700669087 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0B0E07212741722B00669087 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		0B0E07232741724900669087 /* CustomCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +55,8 @@
 		0B0E070A27416DC600669087 /* AnimationProject */ = {
 			isa = PBXGroup;
 			children = (
-				0B0E070B27416DC600669087 /* AnimationProjectApp.swift */,
-				0B0E070D27416DC600669087 /* ContentView.swift */,
-				0B0E070F27416DC700669087 /* Assets.xcassets */,
+				0B0E071F274171FD00669087 /* Sources */,
+				0B0E07202741720500669087 /* Recources */,
 				0B0E071127416DC700669087 /* Preview Content */,
 			);
 			path = AnimationProject;
@@ -65,6 +68,25 @@
 				0B0E071227416DC700669087 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0B0E071F274171FD00669087 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0B0E070F27416DC700669087 /* Assets.xcassets */,
+				0B0E070B27416DC600669087 /* AnimationProjectApp.swift */,
+				0B0E070D27416DC600669087 /* ContentView.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		0B0E07202741720500669087 /* Recources */ = {
+			isa = PBXGroup;
+			children = (
+				0B0E07212741722B00669087 /* CircleView.swift */,
+				0B0E07232741724900669087 /* CustomCircle.swift */,
+			);
+			path = Recources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B0E07222741722B00669087 /* CircleView.swift in Sources */,
 				0B0E070E27416DC600669087 /* ContentView.swift in Sources */,
+				0B0E07242741724900669087 /* CustomCircle.swift in Sources */,
 				0B0E070C27416DC600669087 /* AnimationProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
